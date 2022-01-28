@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
         <title>Portifólio - Ingrid Zago</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+            body{
+                background-color: darkgray; font-family: 'Ubuntu', sans-serif;
+            }
+            p{
+                font-size: larger; 
+            }
+            #habilidade1{
+                font-size:40px ;
+            }
+            #habilidade2{
+                font-size:30px ;
+            }
+            #habilidade3{
+                font-size:20px ;
+            }
+
+            .centralizar{
+                text-align: center;
+            }
+
+            #nacionalidade{
+                color: darkred;
+            }
+            
+            h1{
+                text-align:center; background-color:#A1683A; font-family: 'DotGothic16', sans-serif;  font: size 200px; padding: 10px;
+              }
+            .quemsoueu{
+                text-align:center;image-orientation: from-image;
+            }
+
+            .bloco{
+                background-color:#E8998D;
+            }
+
+
+        </style>
 </head>
 <body>
 
 <h1>Ingrid Marcondes Zago</h1>
-<p>
+<p class="centralizar">
     Bem vindo ao meu portifólio!
  </p>
  <h3>Neste portifólio: <br>
-<a href="#quem">Quem é a Ingrid</a> <br>
+<a href="#quem" >Quem é a Ingrid</a> <br>
 <a href="#formacao">Formação</a> <br>
 <a href="#habilidades">Habilidades</a> <br>
 <a href="#diferenciais">Diferenciais</a> <br>
@@ -19,11 +61,11 @@
 
 </h3>
 
-<h2>Quem é a Ingrid?</h2>
-<img src="./ingrid.jpeg" width="300px" alt="Foto Ingrid" id="quem">
+<h2 class="bloco quemsoueu centralizar">Quem é a Ingrid?</h2>
+<img  src="./ingrid.jpeg" width="300px" alt="Foto Ingrid" id="quem" class="quemsoueu" >
 
-<p>
-    Olá! Sou Ingrid. Sou <strong>brasileira</strong>, nascida e criada em Brasília. Sou aventureira, gosto de viajar e conhecer culturas novas. Gosto de assistir filmes e séries e adoro passar o tempo com os amigos. 
+<p class="bloco" class="quemsoueu" class="centralizar"> 
+    Olá! Sou Ingrid. Sou <strong id="nacionalidade">brasileira</strong>, nascida e criada em Brasília. Sou aventureira, gosto de viajar e conhecer culturas novas. Gosto de assistir filmes e séries e adoro passar o tempo com os amigos. 
  </p>
 
 <h2 id="formacao">Formação</h2>
@@ -32,11 +74,11 @@
     <li> Especialista em Nutrição Clínica - Residência em Nutrição Clínica (FEPECS) - 2015/2017</li>
     <li> Nutricionista - Nutrição - Universidade de Brasília - 2010 - 2014 </li>
 </ul>
-<h2 id ="habilidades">Habilidades</h2>
-<ul>
-    <li><strong>HTML</strong></li>
-    <li>CSS</li>
-    <li>JavaScrit</li>
+<h2 id ="habilidades" class="bloco">Habilidades</h2>
+<ul class="bloco">
+    <li id="habilidade1"><strong>HTML</strong></li>
+    <li id="habilidade2">CSS</li>
+    <li id="habilidade3">JavaScrit</li>
 </ul>
 <h2 id="diferenciais">Diferenciais</h2>
 <ol>
@@ -46,7 +88,7 @@
 </ol>
 
 
-<h2 id="inspiracoes">Inspirações</h2>
-<a href="https://www.ted.com/" target="_blank"> TED talks</a>
+<h2 id="inspiracoes" class="bloco">Inspirações</h2>
+<a class="bloco" href="https://www.ted.com/" target="_blank"> TED talks</a>
 </body>
 </html>
