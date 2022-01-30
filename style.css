@@ -1,0 +1,43 @@
+ body{
+    background-color: darkgray; font-family: 'Ubuntu', sans-serif;
+    }
+p{
+  font-size: larger; 
+}
+#habilidade1{
+   font-size:40px ;
+}
+#habilidade2{
+   font-size:30px ;
+ }
+ #habilidade3{
+   font-size:20px ;
+ }
+
+ .centralizar{
+   text-align: center;
+}
+
+  #nacionalidade{
+  color: darkred;
+   }
+h1{
+    text-align:center; background-color:#A1683A; font-family: 'DotGothic16', sans-serif;  font: size 200px; padding: 10px;
+ }
+ .quemsoueu{
+     text-align:center;image-orientation: from-image;
+ }
+
+.bloco{
+   background-color:#E8998D;
+}
+#descricao{
+    position: absolute;
+    Left:350px;
+    top:350px;
+    right:50px;
+}
+.foto{
+    padding:60px black;
+    margin:black
+}

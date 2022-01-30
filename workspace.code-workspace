@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Exercicios trybe/Fundamentos do Desenvolvimento Web/Bloco 3- HTML e CSS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bloco 3- HTML e CSS"
+	}
+}

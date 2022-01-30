@@ -6,45 +6,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-
-        <style>
-            body{
-                background-color: darkgray; font-family: 'Ubuntu', sans-serif;
-            }
-            p{
-                font-size: larger; 
-            }
-            #habilidade1{
-                font-size:40px ;
-            }
-            #habilidade2{
-                font-size:30px ;
-            }
-            #habilidade3{
-                font-size:20px ;
-            }
-
-            .centralizar{
-                text-align: center;
-            }
-
-            #nacionalidade{
-                color: darkred;
-            }
-            
-            h1{
-                text-align:center; background-color:#A1683A; font-family: 'DotGothic16', sans-serif;  font: size 200px; padding: 10px;
-              }
-            .quemsoueu{
-                text-align:center;image-orientation: from-image;
-            }
-
-            .bloco{
-                background-color:#E8998D;
-            }
-
-
-        </style>
+<link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -58,16 +21,17 @@
 <a href="#habilidades">Habilidades</a> <br>
 <a href="#diferenciais">Diferenciais</a> <br>
 <a href="#inspiracoes">Inspirações</a> <br>
-
 </h3>
 
-<h2 class="bloco quemsoueu centralizar">Quem é a Ingrid?</h2>
-<img  src="./ingrid.jpeg" width="300px" alt="Foto Ingrid" id="quem" class="quemsoueu" >
+<div>
+    <h2 class="bloco quemsoueu centralizar">Quem é a Ingrid?</h2>
+    <img  src="./ingrid.jpeg" width="300px" alt="Foto Ingrid" id="quem" class="quemsoueu foto" >
 
-<p class="bloco" class="quemsoueu" class="centralizar"> 
+   <div> <p class="bloco quemsoueu centralizar" id="descricao"> 
     Olá! Sou Ingrid. Sou <strong id="nacionalidade">brasileira</strong>, nascida e criada em Brasília. Sou aventureira, gosto de viajar e conhecer culturas novas. Gosto de assistir filmes e séries e adoro passar o tempo com os amigos. 
- </p>
-
+    </p>
+    </div>
+</div>
 <h2 id="formacao">Formação</h2>
 <ul>
     <li> Pessoa estudante em Desenvolvimento Web - Trybe - 2022 até o presente </li>
